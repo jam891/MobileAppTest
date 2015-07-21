@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E85C60A21B5E495500964DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60A11B5E495500964DE2 /* AppDelegate.swift */; };
-		E85C60A41B5E495500964DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60A31B5E495500964DE2 /* ViewController.swift */; };
 		E85C60A71B5E495500964DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85C60A51B5E495500964DE2 /* Main.storyboard */; };
 		E85C60A91B5E495500964DE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85C60A81B5E495500964DE2 /* Images.xcassets */; };
 		E85C60AC1B5E495500964DE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85C60AA1B5E495500964DE2 /* LaunchScreen.xib */; };
 		E85C60B81B5E495500964DE2 /* MobileAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60B71B5E495500964DE2 /* MobileAppTestTests.swift */; };
+		E85C60C21B5E499100964DE2 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60C11B5E499100964DE2 /* ContainerViewController.swift */; };
+		E85C60C51B5E4A0600964DE2 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60C41B5E4A0600964DE2 /* IndicatorView.swift */; };
+		E85C60C91B5E4AE900964DE2 /* IndicatorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60C81B5E4AE900964DE2 /* IndicatorItem.swift */; };
+		E85C60CB1B5E571600964DE2 /* IndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85C60CA1B5E571600964DE2 /* IndicatorView.xib */; };
+		E85C60D01B5E64EC00964DE2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CC1B5E64EC00964DE2 /* EmailViewController.swift */; };
+		E85C60D11B5E64EC00964DE2 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CD1B5E64EC00964DE2 /* PersonalViewController.swift */; };
+		E85C60D21B5E64EC00964DE2 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CE1B5E64EC00964DE2 /* UIView+Borders.swift */; };
+		E85C60D31B5E64EC00964DE2 /* VinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CF1B5E64EC00964DE2 /* VinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +36,20 @@
 		E85C609C1B5E495500964DE2 /* MobileAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85C60A01B5E495500964DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85C60A11B5E495500964DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E85C60A31B5E495500964DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E85C60A61B5E495500964DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E85C60A81B5E495500964DE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E85C60AB1B5E495500964DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E85C60B11B5E495500964DE2 /* MobileAppTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85C60B61B5E495500964DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85C60B71B5E495500964DE2 /* MobileAppTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppTestTests.swift; sourceTree = "<group>"; };
+		E85C60C11B5E499100964DE2 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		E85C60C41B5E4A0600964DE2 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		E85C60C81B5E4AE900964DE2 /* IndicatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorItem.swift; sourceTree = "<group>"; };
+		E85C60CA1B5E571600964DE2 /* IndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndicatorView.xib; sourceTree = "<group>"; };
+		E85C60CC1B5E64EC00964DE2 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		E85C60CD1B5E64EC00964DE2 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		E85C60CE1B5E64EC00964DE2 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
+		E85C60CF1B5E64EC00964DE2 /* VinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				E85C60A11B5E495500964DE2 /* AppDelegate.swift */,
-				E85C60A31B5E495500964DE2 /* ViewController.swift */,
 				E85C60A51B5E495500964DE2 /* Main.storyboard */,
-				E85C60A81B5E495500964DE2 /* Images.xcassets */,
-				E85C60AA1B5E495500964DE2 /* LaunchScreen.xib */,
+				E85C60D41B5E76CD00964DE2 /* Controllers */,
+				E85C60C31B5E49E400964DE2 /* Views */,
 				E85C609F1B5E495500964DE2 /* Supporting Files */,
 			);
 			path = MobileAppTest;
@@ -90,6 +103,8 @@
 		E85C609F1B5E495500964DE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E85C60A81B5E495500964DE2 /* Images.xcassets */,
+				E85C60AA1B5E495500964DE2 /* LaunchScreen.xib */,
 				E85C60A01B5E495500964DE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +125,28 @@
 				E85C60B61B5E495500964DE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85C60C31B5E49E400964DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E85C60CE1B5E64EC00964DE2 /* UIView+Borders.swift */,
+				E85C60C41B5E4A0600964DE2 /* IndicatorView.swift */,
+				E85C60CA1B5E571600964DE2 /* IndicatorView.xib */,
+				E85C60C81B5E4AE900964DE2 /* IndicatorItem.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E85C60D41B5E76CD00964DE2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E85C60C11B5E499100964DE2 /* ContainerViewController.swift */,
+				E85C60CC1B5E64EC00964DE2 /* EmailViewController.swift */,
+				E85C60CD1B5E64EC00964DE2 /* PersonalViewController.swift */,
+				E85C60CF1B5E64EC00964DE2 /* VinViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +231,7 @@
 			files = (
 				E85C60A71B5E495500964DE2 /* Main.storyboard in Resources */,
 				E85C60AC1B5E495500964DE2 /* LaunchScreen.xib in Resources */,
+				E85C60CB1B5E571600964DE2 /* IndicatorView.xib in Resources */,
 				E85C60A91B5E495500964DE2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85C60A41B5E495500964DE2 /* ViewController.swift in Sources */,
+				E85C60C21B5E499100964DE2 /* ContainerViewController.swift in Sources */,
+				E85C60C51B5E4A0600964DE2 /* IndicatorView.swift in Sources */,
+				E85C60C91B5E4AE900964DE2 /* IndicatorItem.swift in Sources */,
+				E85C60D21B5E64EC00964DE2 /* UIView+Borders.swift in Sources */,
 				E85C60A21B5E495500964DE2 /* AppDelegate.swift in Sources */,
+				E85C60D11B5E64EC00964DE2 /* PersonalViewController.swift in Sources */,
+				E85C60D31B5E64EC00964DE2 /* VinViewController.swift in Sources */,
+				E85C60D01B5E64EC00964DE2 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
