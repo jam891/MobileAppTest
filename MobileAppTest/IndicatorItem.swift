@@ -9,21 +9,21 @@
 import UIKit
 
 enum State {
-    case Hide
+    case Hidden
     case Show
-    case Check
+    case Checked
 }
 
 @IBDesignable
 class IndicatorItem: UIView {
 
-    @IBInspectable var text: String = String()
+    @IBInspectable var number: String = String()
     @IBInspectable var textSize: CGFloat = 18
     @IBInspectable var checkmarkSize: CGFloat = 4.0
     @IBInspectable var lineWidth: CGFloat = 1.0
     
     let color = UIColor(red: 0.1, green: 0.67, blue: 0.62, alpha: 1)
-    var state = State.Hide {
+    var state = State.Hidden {
         didSet {
             setNeedsDisplay()
         }
@@ -36,14 +36,14 @@ class IndicatorItem: UIView {
             ovalInRect: CGRectInset(bounds, lineWidth / 2, lineWidth / 2))
         
         switch state {
-        case .Hide:
+        case .Hidden:
             ellipsePath.lineWidth = lineWidth
             color.setStroke()
             ellipsePath.stroke()
         case .Show:
             color.setFill()
             ellipsePath.fill()
-        case .Check:
+        case .Checked:
             color.setFill()
             ellipsePath.fill()
         }
@@ -53,7 +53,7 @@ class IndicatorItem: UIView {
     
     func setUpText() {
         var textColor: UIColor  {
-            return state == .Hide ? color : UIColor.whiteColor()
+            return state == .Hidden ? color : UIColor.whiteColor()
         }
         
         let attributes = [
@@ -61,11 +61,11 @@ class IndicatorItem: UIView {
             NSForegroundColorAttributeName: textColor,
         ]
         
-        let size = text.sizeWithAttributes(attributes)
+        let size = number.sizeWithAttributes(attributes)
         let x = CGRectGetMidX(bounds) - size.width / 2
         let y = CGRectGetMidY(bounds) - size.height / 2
     
-        text.drawAtPoint(CGPoint(x: x, y: y), withAttributes: attributes)
+        number.drawAtPoint(CGPoint(x: x, y: y), withAttributes: attributes)
     }
     
     // MARK: - Set up checkmark
@@ -105,7 +105,7 @@ class IndicatorItem: UIView {
     override func drawRect(rect: CGRect) {
         setUpEllipsePath()
         
-        state == .Check ? setUpCheckmark() : setUpText()
+        state == .Checked ? setUpCheckmark() : setUpText()
     }
 
 }

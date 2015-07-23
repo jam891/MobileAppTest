@@ -24,12 +24,10 @@ class VinViewController: UIViewController, UIScrollViewDelegate {
 
     var delegate: VinViewControllerDelegate?
     
-    var index = 0
-    
     // MARK: - Actions
     
     @IBAction func didTapNextButton(sender: UIButton) {
-        
+        delegate?.loadNextPage()
     }
     
     @IBAction func didTapBackButton(sender: UIButton) {
@@ -124,7 +122,7 @@ class VinViewController: UIViewController, UIScrollViewDelegate {
         }
         
         // Purge anything after the last page
-        for var index = lastPage + 1; index < pageImages.count; ++index {
+        for var index = lastPage+1; index < pageImages.count; ++index {
             purgePage(index)
         }
     }

@@ -29,7 +29,7 @@
                         <constraint firstAttribute="height" constant="40" id="bSb-3w-ZKc"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="1"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="number" value="1"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utp-FJ-kB3" userLabel="Step 2" customClass="IndicatorItem" customModule="MobileAppTest" customModuleProvider="target">
@@ -40,7 +40,7 @@
                         <constraint firstAttribute="height" constant="40" id="R9m-d7-hYp"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="2"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="number" value="2"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwN-Qu-LHr" userLabel="Step 3" customClass="IndicatorItem" customModule="MobileAppTest" customModuleProvider="target">
@@ -51,7 +51,7 @@
                         <constraint firstAttribute="width" constant="40" id="yuU-Vf-P8J"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="3"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="number" value="3"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tk0-du-4JV" userLabel="Step 4" customClass="IndicatorItem" customModule="MobileAppTest" customModuleProvider="target">
@@ -62,7 +62,7 @@
                         <constraint firstAttribute="width" constant="40" id="hf6-Z4-89q"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="4"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="number" value="4"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVs-pQ-aVM">

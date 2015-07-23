@@ -18,8 +18,10 @@
 		E85C60CB1B5E571600964DE2 /* IndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85C60CA1B5E571600964DE2 /* IndicatorView.xib */; };
 		E85C60D01B5E64EC00964DE2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CC1B5E64EC00964DE2 /* EmailViewController.swift */; };
 		E85C60D11B5E64EC00964DE2 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CD1B5E64EC00964DE2 /* PersonalViewController.swift */; };
-		E85C60D21B5E64EC00964DE2 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CE1B5E64EC00964DE2 /* UIView+Borders.swift */; };
 		E85C60D31B5E64EC00964DE2 /* VinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C60CF1B5E64EC00964DE2 /* VinViewController.swift */; };
+		E8F97BE31B5FF26B001FB060 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F97BE21B5FF26B001FB060 /* CarViewController.swift */; };
+		E8F97BE71B600483001FB060 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F97BE61B600483001FB060 /* UIView+Borders.swift */; };
+		E8F97BEB1B600A41001FB060 /* SevenSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F97BEA1B600A41001FB060 /* SevenSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +50,10 @@
 		E85C60CA1B5E571600964DE2 /* IndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndicatorView.xib; sourceTree = "<group>"; };
 		E85C60CC1B5E64EC00964DE2 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		E85C60CD1B5E64EC00964DE2 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
-		E85C60CE1B5E64EC00964DE2 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
 		E85C60CF1B5E64EC00964DE2 /* VinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinViewController.swift; sourceTree = "<group>"; };
+		E8F97BE21B5FF26B001FB060 /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		E8F97BE61B600483001FB060 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
+		E8F97BEA1B600A41001FB060 /* SevenSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +134,8 @@
 		E85C60C31B5E49E400964DE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E85C60CE1B5E64EC00964DE2 /* UIView+Borders.swift */,
+				E8F97BEA1B600A41001FB060 /* SevenSwitch.swift */,
+				E8F97BE61B600483001FB060 /* UIView+Borders.swift */,
 				E85C60C41B5E4A0600964DE2 /* IndicatorView.swift */,
 				E85C60CA1B5E571600964DE2 /* IndicatorView.xib */,
 				E85C60C81B5E4AE900964DE2 /* IndicatorItem.swift */,
@@ -145,6 +150,7 @@
 				E85C60CC1B5E64EC00964DE2 /* EmailViewController.swift */,
 				E85C60CD1B5E64EC00964DE2 /* PersonalViewController.swift */,
 				E85C60CF1B5E64EC00964DE2 /* VinViewController.swift */,
+				E8F97BE21B5FF26B001FB060 /* CarViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -251,9 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85C60C21B5E499100964DE2 /* ContainerViewController.swift in Sources */,
+				E8F97BE31B5FF26B001FB060 /* CarViewController.swift in Sources */,
 				E85C60C51B5E4A0600964DE2 /* IndicatorView.swift in Sources */,
 				E85C60C91B5E4AE900964DE2 /* IndicatorItem.swift in Sources */,
-				E85C60D21B5E64EC00964DE2 /* UIView+Borders.swift in Sources */,
+				E8F97BE71B600483001FB060 /* UIView+Borders.swift in Sources */,
+				E8F97BEB1B600A41001FB060 /* SevenSwitch.swift in Sources */,
 				E85C60A21B5E495500964DE2 /* AppDelegate.swift in Sources */,
 				E85C60D11B5E64EC00964DE2 /* PersonalViewController.swift in Sources */,
 				E85C60D31B5E64EC00964DE2 /* VinViewController.swift in Sources */,
@@ -453,6 +461,7 @@
 				E85C60BD1B5E495500964DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E85C60BE1B5E495500964DE2 /* Build configuration list for PBXNativeTarget "MobileAppTestTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +470,7 @@
 				E85C60C01B5E495500964DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
